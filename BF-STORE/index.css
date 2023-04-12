@@ -1,0 +1,68 @@
+body {
+    background-image: url('imagens/fundo.png');
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+/*--------------- links ---------------*/
+a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    margin-top: -1%;
+}
+
+.topo a:hover {
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.topo a:active {
+    color: rgb(255, 34, 34);
+    background: white;
+}
+
+/* --------------- header ---------------*/
+
+.topo {
+    background: black;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    padding: -50px;
+}
+
+#linktop {
+    background: black;
+    color: white;
+    text-align: center;
+    width: 455px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+/*--------------- section ---------------*/
+
+.container {
+    width: 95%;
+    margin: 25px auto;
+    text-align: center;
+    padding: 1%;
+}
+
+.imagens {
+    border: 3px rgb(255, 255, 255) solid;
+    margin: 0 100px;
+    border-radius: 15px;
+}
+
+.modificar {
+    display: inline-block;
+}
