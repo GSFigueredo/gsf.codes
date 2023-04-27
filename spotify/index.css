@@ -1,0 +1,85 @@
+*{
+    padding: 0px; 
+    margin: 0px;
+}
+
+body{ 
+    background: url('imagens/capa.png'), url('imagens/ruido.png'), 
+    linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+
+
+.navbar-expand-md .navbar-nav a.nav-link{
+    color: white;
+}
+
+.navbar-expand-md .navbar-nav a.nav-link:hover { 
+    color: #9bf0e1;
+}
+
+.btn-roxo { 
+    background: #7c25f8;
+}
+
+.btn-roxo:hover{ 
+    background: #6207e3;
+    color: white;
+}
+
+#funcio h1, h2, h3{ 
+    color: #9bf0e1;
+}
+
+#funcio p{ 
+    color: white;
+}
+.btn-branco:hover{ 
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.rotate{ 
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+.form-link{
+    color: white;
+}
+
+.form-link:hover{
+    color: #9bf0e1;
+}
+
+@media (max-width: 575.98px){ 
+    h1{
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 575.98px) and (max-width: 767.98px){ 
+    h1{
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){ 
+    h1{
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+    h1{
+        font-size: 4em;
+    }
+}
+
+@media (min-width: 1200px){ 
+    h1{
+        font-size: 6em;
+    }
+}
