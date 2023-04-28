@@ -1,0 +1,8 @@
+.nav-top{ 
+    color: white;
+}
+
+.nav-top:hover{ 
+    color: blue;
+    cursor: pointer;
+}
