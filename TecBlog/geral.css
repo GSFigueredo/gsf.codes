@@ -1,0 +1,15 @@
+*{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link{ 
+    color: rgb(0, 0, 0);
+}
+
+.link:hover { 
+    color: rgb(237, 220, 220);
+}
